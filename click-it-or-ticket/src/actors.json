@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "Mia Thermopolis",
+        "image": "/Users/ashtonroth/class/Click-it-or-ticket/click-it-or-ticket/public/images/download.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Catwoman",
+        "image": "click-it-or-ticket/public/images/download.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Andrea Sachs",
+        "image": "/Users/ashtonroth/class/Click-it-or-ticket/click-it-or-ticket/public/images/andreasachs.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Jules",
+        "image": "./Jules.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Meryl Streep",
+        "image": "./images/merylstreep.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Julie Andrews",
+        "image": "./images/Julieandrews.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Heather Matarazzo",
+        "image": "./images/heatherm.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Erik Von Detten",
+        "image": "./images/erikvd.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "Fat Louie",
+        "image": "./images/fatlouie.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "Adrien Grenier",
+        "image": "./images/adrieng.jpeg",
+        "clicked": false
+    }
+    
+]
