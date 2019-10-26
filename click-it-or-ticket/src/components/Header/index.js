@@ -1,9 +1,9 @@
 import React from "react";
-import "./style.css";
+// import "./style.css";
 
 export default (props) => {
     return (
-        <div class="container-fluid scoreboard">
+        <div className="container-fluid scoreboard">
             <div className="row scoring">
                 <div className="anneWrapper col-3">
                     <div className="anneTitle row">Lives Left</div>

@@ -1,7 +1,8 @@
 import React from 'react';
-import "./style.css";
+// import "./style.css";
 
 export default (props) => {
+    console.log("hello", props) ; 
     return (
         <div
             className="actorCard"

@@ -1,13 +1,76 @@
 import React, { Component } from "react";
-import actorCard from '../ActorsIcons';
+import ActorCard from '../ActorsIcons';
 import Header from '../Header';
-import Actors from "../src/actors.json";
-import './style.css';
+// import Actors from "../actors.json";
+// import './style.css';
 
 let topScore = 0;
 let currentScore = 0;
 let lives = 3;
 let message = "Click on any Actor to start";
+let Actors = [
+    {
+        "id": 1,
+        "name": "Mia Thermopolis",
+        "image": "/Users/ashtonroth/class/Click-it-or-ticket/click-it-or-ticket/public/images/download.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Catwoman",
+        "image": "click-it-or-ticket/public/images/download.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Andrea Sachs",
+        "image": "/Users/ashtonroth/class/Click-it-or-ticket/click-it-or-ticket/public/images/andreasachs.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Jules",
+        "image": "./Jules.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Meryl Streep",
+        "image": "./images/merylstreep.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Julie Andrews",
+        "image": "./images/Julieandrews.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Heather Matarazzo",
+        "image": "./images/heatherm.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Erik Von Detten",
+        "image": "./images/erikvd.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "Fat Louie",
+        "image": "./images/fatlouie.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "Adrien Grenier",
+        "image": "./images/adrieng.jpeg",
+        "clicked": false
+    }
+    
+]
 
 class Wrapper extends Component {
 
@@ -122,7 +185,7 @@ class Wrapper extends Component {
                 <Header lives={this.renderlives()} currentScore={this.state.currentScore} topScore={this.state.topScore} message={this.state.message} />
                 <div className="row Wrapper">
                     {this.state.Actors.map(Actor => (
-                        <actorCard
+                        <ActorCard
                             setClicked={this.setClicked}
                             id={Actor.id}
                             key={Actor.id}
