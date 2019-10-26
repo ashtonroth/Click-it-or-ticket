@@ -12,25 +12,25 @@ let Actors = [
     {
         "id": 1,
         "name": "Mia Thermopolis",
-        "image": "/Users/ashtonroth/class/Click-it-or-ticket/click-it-or-ticket/public/images/download.jpeg",
+        "image": "./images/Miatherm.jpeg",
         "clicked": false
     },
     {
         "id": 2,
         "name": "Catwoman",
-        "image": "click-it-or-ticket/public/images/download.jpeg",
+        "image": "./images/download.jpeg",
         "clicked": false
     },
     {
         "id": 3,
         "name": "Andrea Sachs",
-        "image": "/Users/ashtonroth/class/Click-it-or-ticket/click-it-or-ticket/public/images/andreasachs.jpeg",
+        "image": "./images/andreasachs.jpeg",
         "clicked": false
     },
     {
         "id": 4,
         "name": "Jules",
-        "image": "./Jules.jpeg",
+        "image": "./images/Jules.jpeg",
         "clicked": false
     },
     {
