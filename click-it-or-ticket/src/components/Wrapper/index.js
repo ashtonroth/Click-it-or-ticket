@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ActorCard from '../ActorsIcons';
 import Header from '../Header';
 // import Actors from "../actors.json";
-// import './style.css';
+// import '../style.css';
 
 let topScore = 0;
 let currentScore = 0;

@@ -1,0 +1,14 @@
+:root {
+    --black: #252429;
+    --deepskyblue: #03a4e1;
+    --orange: #ff9c00;
+    --charcoal: #403c39;
+
+    --font: 'Staatliches', cursive;
+}
+
+.Wrapper {
+    background-color: var(--black);
+    padding: 30px 50px;
+    text-align: center;
+}
